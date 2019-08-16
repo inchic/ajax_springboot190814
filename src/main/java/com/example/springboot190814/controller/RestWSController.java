@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin
 @RestController
 public class RestWSController {
-    @RequestMapping(value = "/ws/organization")
+    @RequestMapping(value = "/ws/restcontroller")
     public Object actionMethod() {
         Map<String,Object> resultObject = new HashMap<String,Object>();
         resultObject.put("Member_ID", "293029301202");
