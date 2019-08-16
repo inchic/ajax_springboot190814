@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @CrossOrigin
 @RestController
-public class HellowController {
+public class HellowController_01 {
     @RequestMapping(value = "/resthellow")
     public String hellow() {
         return "welcome Hellow ///to inchic//// World !! ";

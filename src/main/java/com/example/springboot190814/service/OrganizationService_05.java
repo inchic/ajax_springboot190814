@@ -6,7 +6,7 @@ import java.util.Map;
 import org.springframework.stereotype.Service;
 
 @Service
-public class OrganizationService{
+public class OrganizationService_05{
     public Object actionMethod(){
         Map<String,Object> resultObject=new HashMap<String,Object>();
         resultObject.put("MEMBER_ID","293029301202");
