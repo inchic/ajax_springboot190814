@@ -12,10 +12,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 
 public class RestAjaxController_08{
-    @RequestMapping(value = "/api/post", method = {RequestMethod.GET, RequestMethod.POST})
+    @RequestMapping(value = "/api/ajax", method = {RequestMethod.GET, RequestMethod.POST})
 
     public String getParamWithAjax(@RequestParam Map<String,Object> paramMap){
         // String str = (String) paramMap.get("title");
         return "Welcome to Hellow World!!";
+
+
+       
     }
 }
