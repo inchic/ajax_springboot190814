@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin
 @RestController
-public class RestWSController {
+public class RestWSController_01 {
     @RequestMapping(value = "/ws/organization")
     public Object actionMethod() {
         Map<String,Object> resultObject = new HashMap<String,Object>();
@@ -17,5 +17,7 @@ public class RestWSController {
         resultObject.put("Password", "123123123");
 
         return resultObject;
+        //맵을던진다, 백엔드영역
+        //04ajax_restReturnMap.html
     }
 }
