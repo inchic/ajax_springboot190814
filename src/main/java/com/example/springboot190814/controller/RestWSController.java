@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin
 @RestController
-public class RestWSController_01 {
+public class RestWSController {
     @RequestMapping(value = "/ws/organization")
     public Object actionMethod() {
         Map<String,Object> resultObject = new HashMap<String,Object>();
